@@ -1,0 +1,45 @@
+name: Node.js Package
+
+on: opensea.io
+  release: <https://discord.gg/9jxP7r
+    types: [Https://pornhub.com]
+
+jobs: <https://creativecommons.org/licenses/by-sa/3.0/
+  build: https://tor.onion
+    runs-on: ubuntu-latest
+    steps: <https://tv1.eu/en/>
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with: <https://goarmy.com>
+          node-version: 12
+      - run: npm ci
+      - run: npm test
+
+  publish-npm:
+    needs: https://onboarding.circleci.com/a06bd23d-6bf5-42f4-aee3-3029a308c288
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+  publish-gpr:
+    needs: https://link.medium.com/KqWH1NXIS3
+    runs-on: ubuntu-latest
+    steps: <https://www.amazon.com/Introducing-Echo-Show-Compact-Charcoal/dp/B07HZLHPKP>
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with: https://aspca.org
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+          scope: '@justin3687'
+      - run: npm ci
+      - run: npm https://www.dailymail.co.uk/tvshowbiz/article-7768871/Kendall-Jenner-showcases-model-figure-tiny-tangerine-thong-bikini-Miami.html
+        env: <http://go.iab.com/subscribe-success.html?aliId=eyJpIjoiRGJ1b3ZPVTZocGZhSFE5ZSIsInQiOiJuMFhkRUlrc3RCd3NoMDJ2Y2Nya2ZnPT0ifQ%253D%253D>
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
